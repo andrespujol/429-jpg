@@ -14,11 +14,16 @@
   align-items: center;
   justify-content: center;
 }
+
   
 .chumma h1 {
   color: white;
   font-size: 4vw;
   font-weight: normal;
+
+}
+.chumma:hover {
+  display: block;
 }
 
 .chumma h2 {
@@ -26,6 +31,7 @@
   font-size: 2vw;
   font-weight: normal;
 }
+
 
 .header .navbar {
   background-color: transparent !important;
@@ -41,6 +47,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .navbar-menu-item{
@@ -48,7 +55,10 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  /* comienzo */
+  color: #000;
+  
+  /* fin */
 }
 
 .navbar-menu-item:hover, i:hover, p:hover{
@@ -60,15 +70,109 @@
   font-size: 20px;
   margin: 0px 10px !important;
 }
+/* header  */
 
+.container img {
+  width: 10%;
+}
+.navbar-toggler {
+  background-color: #000 !important;
+}
+/* fin header  */
 
+/* formulario */
+form {
+  position: relative;
+}
+.titleContact {
+  font-weight: bold;
+  text-align: center;
+}
 
+label {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid #A56E02;
+  margin-bottom: 1rem;
+  padding: 8px 10px;
+  position: relative;
+  box-sizing: border-box;
+  margin-left: 5%;
+}
+
+span, input {
+  font-size: 1rem;
+  padding: 0;
+}
+input,textarea {
+  border: none;
+  background-color: transparent;
+  display: block;
+  outline: none;
+  width: 90%;
+  margin: 0 auto;
+}
+
+label span {
+  position: absolute;
+  left: 2px;
+  top: -10px;
+  font-size: 0.7rem;
+  background-color: white;
+  padding: 0 5px;
+}
+.delete, .send {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 1rem;
+  height: 3rem;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.delete {
+  background-color: #7F2617;
+}
+.send {
+  background-color: #A56E02;
+}
 
 @media (min-Width: 760px){
   .header .navbar img {
     width: 5% !important;
   }
-  
+
+  /* formulario  */
+
+  .titleContact {
+    text-align: left;
+    margin: 1rem 0 1rem 5%;
+  }
+  label, input,  .delete, .send {
+    width: 44%;
+    margin-left: 2%;
+  }
+  label:first-child, .delete {
+    margin-left: 5%;
+  }
+  label span {
+    font-size: 1rem;
+    top: -12px;
+  }
+  .messageContact{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  textarea {
+    width: 100%;
+  }
+  .labelMessage {
+    width: 90%;
+    margin-left: 5%;
+  }
 }
 
 @media (min-Width: 992px){
@@ -77,6 +181,26 @@
     display: flex;
     flex-direction: row;
   }
-  
+  /* .header */
+
+  .container img {
+    width: 5%;
+  }
+  /* formulario  */
+  label span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    top: -16px;
+  }
+  .titleContact {
+    margin-left: 23%;
+  }
+  form {
+    width: 60%;
+    margin: 0 auto
+  }
+  input {
+    height: 3rem;
+  }
 }
 

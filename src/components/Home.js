@@ -35,7 +35,7 @@ const Home = () =>{
                 }}
             >
                 <div className='chumma'>
-                    <h2>#productphoto</h2>
+                    {/* <h2>#productphoto</h2> */}
                     <h1>ARTEMISA</h1>
                 </div>
             </ParallaxBanner>  
@@ -52,8 +52,8 @@ const Home = () =>{
                 }}
             >
                 <div className='chumma'>
-                    <h1>- PORTFOLIO -</h1>
-                    <h2>Bruane</h2>
+                    <h1>- ARTEMISA -</h1>
+                    {/* <h2>Bruane</h2> */}
                 </div>
             </ParallaxBanner> 
             <ParallaxBanner
@@ -69,8 +69,8 @@ const Home = () =>{
                 }}
             >
                 <div className='chumma'>
-                    <h1>- PORTFOLIO -</h1>
-                    <h2>Ceremonia del cacao</h2>
+                    <h1>- BRUANE -</h1>
+                    {/* <h2>Ceremonia del cacao</h2> */}
                 </div>
             </ParallaxBanner>  
         </ParallaxProvider>

@@ -2,12 +2,12 @@ import { Navbar, Container, Nav, Image }  from 'react-bootstrap'
 
 const MenuBoot = ()=>{
     return(
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar bg="white" variant="dark" expand="lg">
             <Container>
                 <Image src="./images/429Logo.png" rounded />   
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end">
-                    <Nav style={{textAlign:'center', color:'white'}}>
+                    <Nav style={{textAlign:'center', color:'red'}}>
                         <div className='navbar-menu'>
                             <a href='/' className='navbar-menu-item'>
                                 <i class="fas fa-camera-retro"></i><p>Proyectos</p>
